@@ -1,0 +1,31 @@
+{
+  "name": "bussinessgames",
+  "version": "1.0.0",
+  "description": "Business games codebase",
+  "main": "index.js",
+  "engines": {
+    "node": "16.4.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "frontend": "cd frontend && yarn dev",
+    "socket": "cd socket && yarn dev",
+    "backend": "cd backend && yarn dev",
+    "b": "cd backend && yarn dev",
+    "f": "cd frontend && yarn dev",
+    "s": "cd socket && yarn dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datorium-projects/business-games.git"
+  },
+  "keywords": [],
+  "author": "LU Vadības un uzņēmējdarbības mācību centrs",
+  "license": "Commercial Software License",
+  "bugs": {
+    "url": "https://github.com/datorium-projects/business-games/issues"
+  },
+  "homepage": "https://github.com/datorium-projects/business-games#readme"
+}

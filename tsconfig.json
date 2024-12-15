@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", // Change as needed
+      "module": "CommonJS", // Change as needed
+      "strict": false, // Enable strict type checking
+      "esModuleInterop": true, // Enable ES module interop
+      "resolveJsonModule": true,
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts"],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ]
+  }
