@@ -1,0 +1,7 @@
+const uploadAvatar = () => {
+
+}
+
+export {
+    uploadAvatar
+}

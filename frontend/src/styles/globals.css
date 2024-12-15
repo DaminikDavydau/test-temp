@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        @apply font-montserrat text-BGtext;
+    }
+
+    body {
+        @apply bg-BGlight;
+    }
+
+    h1 {
+        @apply text-4xl font-montserrat font-bold tracking-wide text-BGdark_lightblue;
+    }
+
+    h2 {
+        @apply text-3xl font-montserrat font-medium tracking-wide text-BGdark_lightblue;
+    }
+
+    h3 {
+        @apply text-xl font-montserrat font-medium tracking-wide text-BGdark_lightblue;
+    }
+
+    h4 {
+        @apply text-base font-montserrat font-medium tracking-wide text-BGdark_lightblue;
+    }
+
+    p {
+        @apply text-base font-montserrat text-BGdark_lightblue;
+    }
+
+    small {
+        @apply text-xs font-montserrat text-BGtext font-semibold;
+    }
+
+    input,
+    textarea {
+        @apply rounded-sm px-3 font-montserrat text-BGtext outline-none;
+    }
+
+    button {
+        @apply text-xs rounded-sm px-2 border-none outline-none font-montserrat font-semibold;
+    }
+
+    .page {
+        @apply h-screen w-full;
+    }
+
+    .game_code {
+        @apply font-montserrat text-5xl font-extrabold tracking-wide text-BGdark_lightblue;
+    }
+
+    .window {
+        @apply w-full h-full flex items-center justify-center pb-14 relative overflow-hidden;
+    }
+
+    .window_inner {
+        @apply w-5/6 h-5/6 flex flex-col py-4 items-center justify-start bg-BGlight-white rounded-md relative overflow-y-scroll;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #d4d4d4;
+}
