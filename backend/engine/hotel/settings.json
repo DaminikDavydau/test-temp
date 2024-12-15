@@ -1,0 +1,70 @@
+{
+    "yearKeys": [
+        "yearOne",
+        "yearTwo",
+        "yearThree",
+        "yearFour",
+        "yearFive",
+        "yearSix",
+        "yearSeven",
+        "yearEight",
+        "yearNine",
+        "yearTen"
+    ],
+    "playerSettings": {
+        "initialAssets": 100000
+    },
+    "bankSettings": {
+        "negativeAssets": 0.2,
+        "positiveAssets": 0.1
+    },
+    "weatherSettings": {
+        "clearSkyNumbers": [1, 4, 5],
+        "clearWaterNumbers": [1, 2, 3],
+        "clientAmount": {
+            "weatherGood": 50000,
+            "waterGood": 40000,
+            "skyGood": 30000,
+            "weatherPoor": 10000
+        },
+        "poolFine": -25000
+    },
+    "priceSettings": {
+        "autoPrice": 5,
+        "allowedPrices": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "clientChange": {
+            "-5": 40000,
+            "-4": 40000,
+            "-3": 20000,
+            "-2": 20000,
+            "-1": 10000,
+            "0": 0,
+            "1": -5000,
+            "2": -10000,
+            "3": -10000,
+            "4": -20000,
+            "5": -20000
+        }
+    },
+    "constructionSettings": {
+        "allowedConstructions": [
+            "restaurant",
+            "conferenceHall",
+            "tennisCourt",
+            "swimmingPool"
+        ],
+        "constructionPrices": {
+            "restaurant": -100000,
+            "conferenceHall": -200000,
+            "tennisCourt": -300000,
+            "swimmingPool": -500000
+        },
+        "clientMultiplier": {
+            "restaurant": 0.1,
+            "conferenceHall": 0.2,
+            "tennisCourt": 0.3,
+            "swimmingPool": 0.5,
+            "swimmingPoolClear": 0.1
+        }
+    }
+}

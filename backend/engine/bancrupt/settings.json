@@ -1,0 +1,128 @@
+{
+    "playerSettings": {
+        "initialAssets": 1000,
+        "bancrupcyMargin": 0
+    },
+    "businessSettings": {
+        "businessOne": {
+            "name": "Aptieka",
+            "investmentReturnRate": {
+                "yearOne": 0.4,
+                "yearTwo": 0.2,
+                "yearThree": 0.3,
+                "yearFour": 0.2,
+                "yearFive": 0.1
+            },
+            "eventProbability": {
+                "yearOne": 0.1667,
+                "yearTwo": 0.1667,
+                "yearThree": 0.1667,
+                "yearFour": 0.1667,
+                "yearFive": 0.1667
+            },
+            "investmentLosses": {
+                "yearOne": 1,
+                "yearTwo": 1,
+                "yearThree": 1,
+                "yearFour": 1,
+                "yearFive": 1
+            }
+        },
+        "businessTwo": {
+            "name": "Aptieka",
+            "investmentReturnRate": {
+                "yearOne": 0.2,
+                "yearTwo": 0.2,
+                "yearThree": 0.2,
+                "yearFour": 0.2,
+                "yearFive": 0.2
+            },
+            "eventProbability": {
+                "yearOne": 0.1667,
+                "yearTwo": 0.1667,
+                "yearThree": 0.1667,
+                "yearFour": 0.1667,
+                "yearFive": 0.1667
+            },
+            "investmentLosses": {
+                "yearOne": 1,
+                "yearTwo": 1,
+                "yearThree": 1,
+                "yearFour": 1,
+                "yearFive": 1
+            }
+        },
+        "businessThree": {
+            "name": "Aptieka",
+            "investmentReturnRate": {
+                "yearOne": 0.3,
+                "yearTwo": 0.2,
+                "yearThree": 0.1,
+                "yearFour": 0.2,
+                "yearFive": 0.3
+            },
+            "eventProbability": {
+                "yearOne": 0.1667,
+                "yearTwo": 0.1667,
+                "yearThree": 0.1667,
+                "yearFour": 0.1667,
+                "yearFive": 0.1667
+            },
+            "investmentLosses": {
+                "yearOne": 1,
+                "yearTwo": 1,
+                "yearThree": 1,
+                "yearFour": 1,
+                "yearFive": 1
+            }
+        },
+        "businessFour": {
+            "name": "Aptieka",
+            "investmentReturnRate": {
+                "yearOne": 0.1,
+                "yearTwo": 0.1,
+                "yearThree": 0.1,
+                "yearFour": 0.1,
+                "yearFive": 0.1
+            },
+            "eventProbability": {
+                "yearOne": 0,
+                "yearTwo": 0,
+                "yearThree": 0,
+                "yearFour": 0,
+                "yearFive": 0
+            },
+            "investmentLosses": {
+                "yearOne": 0,
+                "yearTwo": 0,
+                "yearThree": 0,
+                "yearFour": 0,
+                "yearFive": 0
+            }
+        },
+        "businessFive": {
+            "name": "Aptieka",
+            "investmentReturnRate": {
+                "yearOne": 0.4,
+                "yearTwo": 0.5,
+                "yearThree": 0.6,
+                "yearFour": 0.8,
+                "yearFive": 1
+            },
+            "eventProbability": {
+                "yearOne": 0.1667,
+                "yearTwo": 0.2,
+                "yearThree": 0.25,
+                "yearFour": 0.3333,
+                "yearFive": 0.5
+            },
+            "investmentLosses": {
+                "yearOne": 1,
+                "yearTwo": 1,
+                "yearThree": 1,
+                "yearFour": 1,
+                "yearFive": 1
+            }
+        }
+    }
+}

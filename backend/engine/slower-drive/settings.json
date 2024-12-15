@@ -1,0 +1,54 @@
+{
+    "yearKeys": [
+        "yearOne",
+        "yearTwo",
+        "yearThree",
+        "yearFour",
+        "yearFive",
+        "yearSix",
+        "yearSeven",
+        "yearEight",
+        "yearNine",
+        "yearTen",
+        "yearEleven",
+        "yearTwelve",
+        "yearThirteen",
+        "yearFourteen",
+        "yearFifteen",
+        "yearSixteen",
+        "yearSeventeen",
+        "yearEighteen",
+        "yearNineteen"
+    ],
+    "playerSettings": {
+        "initialAssets": 0,
+        "sleepingInterval": 4,
+        "defaultSpeed": 60,
+        "autoSpeed": 60,
+        "goalDistance": 960,
+        "rewardMarginYear": "yearSixteen",
+        "allowedInvestments": [0, 60, 70, 80, 90, 100, 110, 120, 130]
+    },
+    "policeSettings": {
+        "catchProbability": {
+            "0": 0,
+            "60": 0,
+            "70": 0.028,
+            "80": 0.17,
+            "90": 0.33,
+            "100": 0.5,
+            "110": 0.67,
+            "120": 0.83,
+            "130": 1
+        }
+    },
+    "fineSettings": {
+        "speedingFineRate": -200,
+        "sleepingFine": -2000
+    },
+    "rewardSettings": {
+        "finishedFirstReward": 10000,
+        "isEarlyReward": 1000,
+        "finishedReward": 10000
+    }
+}

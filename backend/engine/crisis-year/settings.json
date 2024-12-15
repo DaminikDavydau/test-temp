@@ -1,0 +1,46 @@
+{
+    "playerSettings": {
+        "initialAssets": -1000,
+        "bancrupcyMargin": -4000,
+        "allowedInvestments": [0, 10, 20, 40, 60, 80, 100]
+    },
+    "financesSettings": {
+        "goodYearProbability": 0.5,
+        "familyExpenses": -20,
+        "pigExpenses": -10,
+        "bankPercentages": {
+            "positiveAssets": 0.07,
+            "negativeAssets": 0.25
+        },
+        "pigIncomes": {
+            "0-40": {
+                "goodYear": 100,
+                "badYear": 80
+            },
+            "41-60": {
+                "goodYear": 80,
+                "badYear": 60
+            },
+            "61-80": {
+                "goodYear": 60,
+                "badYear": 40
+            },
+            "81-100": {
+                "goodYear": 40,
+                "badYear": 20
+            },
+            "101-200": {
+                "goodYear": 20,
+                "badYear": 10
+            },
+            "201-400": {
+                "goodYear": 10,
+                "badYear": 5
+            },
+            "401-": {
+                "goodYear": 5,
+                "badYear": 3
+            }
+        }
+    }
+}
